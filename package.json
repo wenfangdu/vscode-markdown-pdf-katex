@@ -25,12 +25,6 @@
     "url": "https://github.com/yzane/vscode-markdown-pdf.git"
   },
   "activationEvents": [
-    "onCommand:extension.markdown-pdf.settings",
-    "onCommand:extension.markdown-pdf.pdf",
-    "onCommand:extension.markdown-pdf.html",
-    "onCommand:extension.markdown-pdf.png",
-    "onCommand:extension.markdown-pdf.jpeg",
-    "onCommand:extension.markdown-pdf.all",
     "onLanguage:markdown"
   ],
   "main": "./extension",
