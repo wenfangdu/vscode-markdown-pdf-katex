@@ -21,20 +21,20 @@ importers:
         specifier: 9.18.1
         version: 9.18.1
       markdown-it:
-        specifier: 10.0.0
-        version: 10.0.0
+        specifier: 14.1.0
+        version: 14.1.0
       markdown-it-checkbox:
         specifier: 1.1.0
         version: 1.1.0
       markdown-it-container:
-        specifier: 2.0.0
-        version: 2.0.0
+        specifier: 4.0.0
+        version: 4.0.0
       markdown-it-emoji:
         specifier: 1.4.0
         version: 1.4.0
       markdown-it-include:
-        specifier: 1.1.0
-        version: 1.1.0
+        specifier: 2.0.0
+        version: 2.0.0(markdown-it@14.1.0)
       markdown-it-named-headers:
         specifier: 0.0.4
         version: 0.0.4
@@ -120,6 +120,9 @@ packages:
 
   argparse@1.0.10:
     resolution: {integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==, tarball: https://nexus3.bilibili.co/repository/npm-public/argparse/-/argparse-1.0.10.tgz}
+
+  argparse@2.0.1:
+    resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==, tarball: https://nexus3.bilibili.co/repository/npm-public/argparse/-/argparse-2.0.1.tgz}
 
   array-buffer-byte-length@1.0.2:
     resolution: {integrity: sha512-LHE+8BuR7RYGDKvnrmcuSq3tDcKv9OFEXQt/HpbZhY7V6h0zlUXutnAD82GiFx9rdieCMjkvtcsPqBwgUl1Iiw==, tarball: https://nexus3.bilibili.co/repository/npm-public/array-buffer-byte-length/-/array-buffer-byte-length-1.0.2.tgz}
@@ -370,8 +373,9 @@ packages:
   entities@1.1.2:
     resolution: {integrity: sha512-f2LZMYl1Fzu7YSBKg+RoROelpOaNrcGmE9AZubeDfrCEia483oW4MI4VyFd5VNHIgQ/7qm1I0wUHK1eJnn2y2w==, tarball: https://nexus3.bilibili.co/repository/npm-public/entities/-/entities-1.1.2.tgz}
 
-  entities@2.0.3:
-    resolution: {integrity: sha512-MyoZ0jgnLvB2X3Lg5HqpFmn1kybDiIfEQmKzTb5apr51Rb+T3KdmMiqa70T+bhGnyv7bQ6WMj2QMHpGMmlrUYQ==, tarball: https://nexus3.bilibili.co/repository/npm-public/entities/-/entities-2.0.3.tgz}
+  entities@4.5.0:
+    resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==, tarball: https://nexus3.bilibili.co/repository/npm-public/entities/-/entities-4.5.0.tgz}
+    engines: {node: '>=0.12'}
 
   es-abstract@1.23.9:
     resolution: {integrity: sha512-py07lI0wjxAC/DcfK1S6G7iANonniZwTISvdPzk9hzeH0IZIshbuuFxLIU96OyF89Yb9hiqWn8M/bY83KY5vzA==, tarball: https://nexus3.bilibili.co/repository/npm-public/es-abstract/-/es-abstract-1.23.9.tgz}
@@ -778,8 +782,8 @@ packages:
     resolution: {integrity: sha512-0OO4y2iOHix2W6ujICbKIaEQXvFQHue65vUG3pb5EUomzPI90z9hsA1VsO/dbIIpC53J8gxM9Q4Oho0jrCM/yA==, tarball: https://nexus3.bilibili.co/repository/npm-public/levn/-/levn-0.3.0.tgz}
     engines: {node: '>= 0.8.0'}
 
-  linkify-it@2.2.0:
-    resolution: {integrity: sha512-GnAl/knGn+i1U/wjBz3akz2stz+HrHLsxMwHQGofCDfPvlf+gDKN58UtfmUquTY4/MXeE2x7k19KQmeoZi94Iw==, tarball: https://nexus3.bilibili.co/repository/npm-public/linkify-it/-/linkify-it-2.2.0.tgz}
+  linkify-it@5.0.0:
+    resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==, tarball: https://nexus3.bilibili.co/repository/npm-public/linkify-it/-/linkify-it-5.0.0.tgz}
 
   locate-path@3.0.0:
     resolution: {integrity: sha512-7AO748wWnIhNqAuaty2ZWHkQHRSNfPVIsPIfwEOWO22AmaoVrWavlOcMR5nzTLNYvp36X220/maaRsrec1G65A==, tarball: https://nexus3.bilibili.co/repository/npm-public/locate-path/-/locate-path-3.0.0.tgz}
@@ -795,14 +799,17 @@ packages:
   markdown-it-checkbox@1.1.0:
     resolution: {integrity: sha512-NkZVjnXo5G+cLNdi7DPZxICypBuxFE9F8sx3YGMZn+Cfizr8EZ/1TFUKl7ZnefF6cr1aFHbnQ5iA3rc4cp7EyA==, tarball: https://nexus3.bilibili.co/repository/npm-public/markdown-it-checkbox/-/markdown-it-checkbox-1.1.0.tgz}
 
-  markdown-it-container@2.0.0:
-    resolution: {integrity: sha512-IxPOaq2LzrGuFGyYq80zaorXReh2ZHGFOB1/Hen429EJL1XkPI3FJTpx9TsJeua+j2qTru4h3W1TiCRdeivMmA==, tarball: https://nexus3.bilibili.co/repository/npm-public/markdown-it-container/-/markdown-it-container-2.0.0.tgz}
+  markdown-it-container@4.0.0:
+    resolution: {integrity: sha512-HaNccxUH0l7BNGYbFbjmGpf5aLHAMTinqRZQAEQbMr2cdD3z91Q6kIo1oUn1CQndkT03jat6ckrdRYuwwqLlQw==, tarball: https://nexus3.bilibili.co/repository/npm-public/markdown-it-container/-/markdown-it-container-4.0.0.tgz}
 
   markdown-it-emoji@1.4.0:
     resolution: {integrity: sha512-QCz3Hkd+r5gDYtS2xsFXmBYrgw6KuWcJZLCEkdfAuwzZbShCmCfta+hwAMq4NX/4xPzkSHduMKgMkkPUJxSXNg==, tarball: https://nexus3.bilibili.co/repository/npm-public/markdown-it-emoji/-/markdown-it-emoji-1.4.0.tgz}
 
-  markdown-it-include@1.1.0:
-    resolution: {integrity: sha512-OeXvJHfEHrnXWH8+eqMeIX0aFJz4W2ULzfbEVGXBEXab7i3cqLWUxtiHUokZ0/A2uZvLXSaFns/BEVN/mINaCQ==, tarball: https://nexus3.bilibili.co/repository/npm-public/markdown-it-include/-/markdown-it-include-1.1.0.tgz}
+  markdown-it-include@2.0.0:
+    resolution: {integrity: sha512-wfgIX92ZEYahYWiCk6Jx36XmHvAimeHN420csOWgfyZjpf171Y0xREqZWcm/Rwjzyd0RLYryY+cbNmrkYW2MDw==, tarball: https://nexus3.bilibili.co/repository/npm-public/markdown-it-include/-/markdown-it-include-2.0.0.tgz}
+    engines: {node: '>=10'}
+    peerDependencies:
+      markdown-it: '>=8.4.2'
 
   markdown-it-named-headers@0.0.4:
     resolution: {integrity: sha512-2uuJ9urchbulz9F7q6VVQmeGxSXjxFeeGcb4ebKiz3+nuKOho1rLw8866a6zs1EeAe9xdSOKEpqeF5Dv22ZDxw==, tarball: https://nexus3.bilibili.co/repository/npm-public/markdown-it-named-headers/-/markdown-it-named-headers-0.0.4.tgz}
@@ -810,16 +817,16 @@ packages:
   markdown-it-plantuml@1.4.1:
     resolution: {integrity: sha512-13KgnZaGYTHBp4iUmGofzZSBz+Zj6cyqfR0SXUIc9wgWTto5Xhn7NjaXYxY0z7uBeTUMlc9LMQq5uP4OM5xCHg==, tarball: https://nexus3.bilibili.co/repository/npm-public/markdown-it-plantuml/-/markdown-it-plantuml-1.4.1.tgz}
 
-  markdown-it@10.0.0:
-    resolution: {integrity: sha512-YWOP1j7UbDNz+TumYP1kpwnP0aEa711cJjrAQrzd0UXlbJfc5aAq0F/PZHjiioqDC1NKgvIMX+o+9Bk7yuM2dg==, tarball: https://nexus3.bilibili.co/repository/npm-public/markdown-it/-/markdown-it-10.0.0.tgz}
+  markdown-it@14.1.0:
+    resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==, tarball: https://nexus3.bilibili.co/repository/npm-public/markdown-it/-/markdown-it-14.1.0.tgz}
     hasBin: true
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==, tarball: https://nexus3.bilibili.co/repository/npm-public/math-intrinsics/-/math-intrinsics-1.1.0.tgz}
     engines: {node: '>= 0.4'}
 
-  mdurl@1.0.1:
-    resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==, tarball: https://nexus3.bilibili.co/repository/npm-public/mdurl/-/mdurl-1.0.1.tgz}
+  mdurl@2.0.0:
+    resolution: {integrity: sha512-Lf+9+2r+Tdp5wXDXC4PcIBjTDtq4UKjCPMQhKIuzpJNW0b96kVqSwW0bT7FhRSfmAiFYgP+SCRvdrDozfh0U5w==, tarball: https://nexus3.bilibili.co/repository/npm-public/mdurl/-/mdurl-2.0.0.tgz}
 
   mime-db@1.52.0:
     resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==, tarball: https://nexus3.bilibili.co/repository/npm-public/mime-db/-/mime-db-1.52.0.tgz}
@@ -980,6 +987,10 @@ packages:
 
   psl@1.15.0:
     resolution: {integrity: sha512-JZd3gMVBAVQkSs6HdNZo9Sdo0LNcQeMNP3CozBJb3JYC/QUYZTnKxP+f8oWRX4rHP5EurWxqAHTSwUCjlNKa1w==, tarball: https://nexus3.bilibili.co/repository/npm-public/psl/-/psl-1.15.0.tgz}
+
+  punycode.js@2.3.1:
+    resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==, tarball: https://nexus3.bilibili.co/repository/npm-public/punycode.js/-/punycode.js-2.3.1.tgz}
+    engines: {node: '>=6'}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==, tarball: https://nexus3.bilibili.co/repository/npm-public/punycode/-/punycode-2.3.1.tgz}
@@ -1209,8 +1220,8 @@ packages:
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==, tarball: https://nexus3.bilibili.co/repository/npm-public/typedarray/-/typedarray-0.0.6.tgz}
 
-  uc.micro@1.0.6:
-    resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==, tarball: https://nexus3.bilibili.co/repository/npm-public/uc.micro/-/uc.micro-1.0.6.tgz}
+  uc.micro@2.1.0:
+    resolution: {integrity: sha512-ARDJmphmdvUk6Glw7y9DQ2bFkKBHwQHLi2lsaH6PPmz/Ka9sFOBsBluozhDltWmnv9u/cF6Rt87znRTPV+yp/A==, tarball: https://nexus3.bilibili.co/repository/npm-public/uc.micro/-/uc.micro-2.1.0.tgz}
 
   unbox-primitive@1.1.0:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==, tarball: https://nexus3.bilibili.co/repository/npm-public/unbox-primitive/-/unbox-primitive-1.1.0.tgz}
@@ -1359,6 +1370,8 @@ snapshots:
   argparse@1.0.10:
     dependencies:
       sprintf-js: 1.0.3
+
+  argparse@2.0.1: {}
 
   array-buffer-byte-length@1.0.2:
     dependencies:
@@ -1638,7 +1651,7 @@ snapshots:
 
   entities@1.1.2: {}
 
-  entities@2.0.3: {}
+  entities@4.5.0: {}
 
   es-abstract@1.23.9:
     dependencies:
@@ -2154,9 +2167,9 @@ snapshots:
       type-check: 0.3.2
     optional: true
 
-  linkify-it@2.2.0:
+  linkify-it@5.0.0:
     dependencies:
-      uc.micro: 1.0.6
+      uc.micro: 2.1.0
 
   locate-path@3.0.0:
     dependencies:
@@ -2173,11 +2186,13 @@ snapshots:
     dependencies:
       underscore: 1.13.7
 
-  markdown-it-container@2.0.0: {}
+  markdown-it-container@4.0.0: {}
 
   markdown-it-emoji@1.4.0: {}
 
-  markdown-it-include@1.1.0: {}
+  markdown-it-include@2.0.0(markdown-it@14.1.0):
+    dependencies:
+      markdown-it: 14.1.0
 
   markdown-it-named-headers@0.0.4:
     dependencies:
@@ -2185,17 +2200,18 @@ snapshots:
 
   markdown-it-plantuml@1.4.1: {}
 
-  markdown-it@10.0.0:
+  markdown-it@14.1.0:
     dependencies:
-      argparse: 1.0.10
-      entities: 2.0.3
-      linkify-it: 2.2.0
-      mdurl: 1.0.1
-      uc.micro: 1.0.6
+      argparse: 2.0.1
+      entities: 4.5.0
+      linkify-it: 5.0.0
+      mdurl: 2.0.0
+      punycode.js: 2.3.1
+      uc.micro: 2.1.0
 
   math-intrinsics@1.1.0: {}
 
-  mdurl@1.0.1: {}
+  mdurl@2.0.0: {}
 
   mime-db@1.52.0: {}
 
@@ -2368,6 +2384,8 @@ snapshots:
     dependencies:
       punycode: 2.3.1
     optional: true
+
+  punycode.js@2.3.1: {}
 
   punycode@2.3.1:
     optional: true
@@ -2704,7 +2722,7 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  uc.micro@1.0.6: {}
+  uc.micro@2.1.0: {}
 
   unbox-primitive@1.1.0:
     dependencies:
